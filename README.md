@@ -25,10 +25,11 @@ pip install -r requirements.txt
 
 ## Running the example
 
-After activating the environment, execute the example script:
+After installing dependencies, execute the example script:
 
 ```bash
 python main.py
 ```
 
-The script performs a few simulation steps with a minimal MuJoCo model and prints the position state after each step.
+The script performs a few simulation steps with a minimal MuJoCo model and prints
+the position state after each step.
