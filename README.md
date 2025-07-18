@@ -4,14 +4,20 @@ A minimal project skeleton demonstrating the use of [MuJoCo](https://mujoco.org/
 
 ## Setup
 
-1. Create and activate a Conda environment:
+1. Create the Conda environment:
 
 ```bash
-conda create -n ribonne python=3.11
+conda env create -f environment.yml
+```
+
+2. Activate the environment:
+
+```bash
 conda activate ribonne
 ```
 
-2. Install dependencies:
+The environment file installs the required `mujoco` package. If you prefer
+using `pip` in another environment, run:
 
 ```bash
 pip install -r requirements.txt
@@ -19,7 +25,7 @@ pip install -r requirements.txt
 
 ## Running the example
 
-After installing dependencies, execute the example script:
+After activating the environment, execute the example script:
 
 ```bash
 python main.py
