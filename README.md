@@ -4,14 +4,20 @@ A minimal project skeleton demonstrating the use of [MuJoCo](https://mujoco.org/
 
 ## Setup
 
-1. (optional) Create a virtual environment:
+1. Create the Conda environment:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+conda env create -f environment.yml
 ```
 
-2. Install dependencies:
+2. Activate the environment:
+
+```bash
+conda activate ribonne
+```
+
+The environment file installs the required `mujoco` package. If you prefer
+using `pip` in another environment, run:
 
 ```bash
 pip install -r requirements.txt
